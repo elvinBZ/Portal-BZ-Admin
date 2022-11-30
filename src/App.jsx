@@ -1,13 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1>Portal BZ Admin</h1>
+    <div className="App text-primary">
+      <h1>Hello World</h1>
     </div>
   )
 }
